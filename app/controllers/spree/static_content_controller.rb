@@ -1,4 +1,4 @@
-class Spree::StaticContentController < Spree::StoreController
+class Spree::StaticContentController < Spree::BaseController
   rescue_from ActiveRecord::RecordNotFound, :with => :render_404
 
   helper 'spree/products'
