@@ -1,3 +1,3 @@
 source 'https://rubygems.org/'
-gem 'solidus', '~> 1.0.1'
+gem 'solidus', github: 'solidusio/solidus', branch: 'master'
 gemspec
